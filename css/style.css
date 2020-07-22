@@ -1,0 +1,504 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+nav .navbar-nav .nav-item {
+    font-size: 14px;
+    font-weight: 700;
+}
+.nav-item{
+    padding-right: 15px;
+}
+
+
+.bg-color {
+    background: white ;
+    transition: .5s ease-out;
+}
+
+.bg-color.scrolled {
+    background: #eb2f06 !important;
+    color: white !important;
+}
+
+
+/*drapdown*/
+nav .navbar-nav .dropdown .dropdown-menu{
+    background-color: tomato;
+    margin-top: 26px !important;
+    border-radius: 0;
+    color: white;
+}
+
+nav .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+    color:white;
+    font-weight: 700;
+}
+
+nav .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    color:black;
+    font-weight: 700;
+}
+
+@media(max-width:991px){
+    #recentproject h4{
+        font-size: 35px;
+    }
+    #service h4{
+        font-size: 35px;
+    }
+    #price h4{
+        font-size: 35px;
+    }
+    #service3rd h4{
+        font-size: 35px;
+    }
+}
+
+
+
+
+#home{
+    background: url(../Image/banner_bg.png) no-repeat center top;
+    background-position: center;
+    min-height: 900px;
+}
+.home-inner{
+    padding-top: 400px;
+    padding-bottom: 200px;
+}
+
+
+@media(min-width:991px){
+       .shop{
+        display: none;
+    }
+}
+
+#recentproject .nav-pills .nav-link{
+    color: black;
+    font-weight: bolder;
+}
+
+#recentproject .nav-pills .active{
+    background-color: #eb2f06;
+    color: white !important;
+    font-weight: bolder;
+}
+
+
+
+@media(max-width:991px)
+{
+    #recentproject ul  {
+     display: inline-block;  
+    }
+}
+
+@media (max-width:574px)
+{
+    .carousel .carousel-inner .carousel-caption h2{
+        font-size: 20px;
+    }
+    #client2 .carousel .carousel-inner .carousel-caption h2{
+        font-size: 20px;
+    }
+
+    #home h5{
+        font-size: 15px !important;
+    }
+    #home h1{
+        font-size: 25px;
+    }
+    #home .viewwork{
+        font-size: 15px !important;
+    }
+    #home {
+        min-height: 700px !important;
+    }
+}
+
+#about .btn1{
+    background-color: black;
+    border-radius: 30px;
+    color: gray;
+    font-size: medium;
+    font-weight: 600;
+    padding: 15px;
+    transition: .3s;
+}
+
+
+#about .btn1:hover{
+   background-color: #eb2f06;
+    color: white;
+    transition: .3s;
+}
+
+#price .btn1{
+    background-color: black;
+    border-radius: 30px;
+    color: gray;
+    font-size: medium;
+    font-weight: 600;
+    padding: 15px;
+    transition: .3s;
+}
+
+
+#price .btn1:hover{
+   background-color: #eb2f06;
+    color: white;
+    transition: .3s;
+}
+
+
+#home .viewwork{
+    text-decoration: none;
+    color: white;
+    font: 1em sans-serif;
+    font-weight: 700;
+    transition: .5s;
+}
+
+#home .viewwork:hover{
+    transition: .5s;
+    color: #eb2f06;
+}
+
+#service .viewwork{
+    text-decoration: none;
+    color: black;
+    font: 1em sans-serif;
+    font-weight: 700;
+    transition: .5s;
+}
+
+#service .viewwork:hover{
+    transition: .5s;
+    color: #eb2f06;
+}
+
+
+
+#service3rd .viewwork{
+    text-decoration: none;
+    color: black;
+    font: 1em sans-serif;
+    font-weight: 700;
+    transition: .5s;
+}
+
+#service3rd .viewwork:hover{
+    transition: .5s;
+    color: #eb2f06;
+}
+
+
+
+
+@media(max-width:767px)
+{
+    #about h3{
+        font-size: 25px !important;
+    }
+}
+
+
+
+@media (max-width:450px)
+{
+    .carousel .carousel-inner .carousel-caption p{
+        display: none;
+    }
+    #client2 .carousel .carousel-inner .carousel-caption p{
+        display: none;
+    }
+}
+
+
+#price .card:hover {
+    background: #eb2f06;
+    color: white !important;
+}
+#aboutprice .card:hover{
+    background: #eb2f06;
+    color: white !important;
+}
+
+
+
+
+
+
+
+#blog .viewwork{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    transition: .5s;
+}
+
+#blog .viewwork:hover{
+    transition: .5s;
+    color: #eb2f06;
+}
+
+
+#contact .viewwork{
+    text-decoration: none;
+    color: #dfe6e9;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+#contact .viewwork:hover{
+    transition: .5s;
+    color: #eb2f06;
+}
+
+#contact ::placeholder{
+    color: white ;
+    font-size: 13px;
+    opacity: 1;
+}
+
+/*----------------2nd page--------------------*/
+#about {
+    min-height: 315px;
+    background-color: #FAF0E6;
+}
+
+#about .about-inner{
+   padding-top: 165px;
+}
+
+#service3rd{
+    margin-top: 100px;
+}
+
+#serviceabout {
+    min-height: 315px;
+    background-color: #FAF0E6;
+}
+
+#serviceabout .about-inner{
+    padding-top: 165px;
+ }
+
+
+ #portfolio {
+    min-height: 315px;
+    background-color: #FAF0E6;
+}
+
+#portfolio .about-inner{
+    padding-top: 165px;
+ }
+
+ #portfoliodetails  {
+    min-height: 315px;
+    background-color: #FAF0E6;
+}
+
+#portfoliodetails .about-inner{
+    padding-top: 165px;
+ }
+
+
+ #blog1 .box{
+     position: relative;
+     width: 80px;
+     height: 80px;
+     background-color: #eb2f06;
+     margin-top: -40px;
+     margin-left: 20px;
+     border-radius: 6px;
+ }
+ #blog1 .box .boxtext{
+     position: absolute;
+     color: white;
+     top:50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     font-weight: 800;
+ }
+ @media (max-width:500px){
+     #blog1 .box{
+         width: 50px;
+         height: 50px;
+     }
+     #blog1 .box .boxtext{
+         font-size: 15px;
+         font-weight: 600;
+     }
+ }
+
+
+
+ #blog1 .viewwork{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    transition: .5s;
+}
+
+#blog1 .viewwork:hover{
+    transition: .5s;
+    color: #eb2f06;
+}
+@media (max-height:768px){
+    #blog1 .viewwork{
+        font-size: 25px;
+    }   
+}
+
+#blog1 .bottomb{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    transition: ease-in .6s;
+    font-weight: 700;
+    color: gray;
+}
+
+#blog1 .bottomb:hover{
+    border-bottom: 1px solid gray;
+    width: 100%;
+    color: #eb2f06;
+    transition: ease-in .6s;
+}
+
+#blog1 .postclass{
+    transition: ease-in .6s;
+    font-weight: 500;
+    color: gray;
+}
+
+#blog1 .postclass:hover{
+    color: #eb2f06;
+    transition: ease-in .6s;
+}
+
+#blog1 .postclass2{
+    background-color: white;
+    width: fit-content;
+    transition: ease-in .6s;
+    font-weight: 700;
+    color: gray;
+    padding-right: 50px;
+}
+
+#blog1 .postclass2:hover{
+    color: #eb2f06;
+    transition: ease-in .6s;
+}
+
+#blog1 .pagination .page-item .page-link{
+    color:gray!important;
+}
+
+
+
+
+#singleblog .box{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: #eb2f06;
+    margin-top: -40px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+#singleblog .box .boxtext{
+    position: absolute;
+    color: white;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 800;
+}
+@media (max-width:500px){
+    #singleblog .box{
+        width: 50px;
+        height: 50px;
+    }
+    #singleblog .box .boxtext{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #singleblog .normal h4{
+        font-size: 20px !important;
+    }
+}
+
+#singleblog .forborder{
+    outline:25px solid #f1f2f6;
+    border-left: 1px solid black;
+    padding: 15px;
+}
+
+
+#singleblog textarea{
+    color: gray;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+
+#singleblog .btnform{
+    background-color: black;
+    border-radius: 30px;
+    color: gray;
+    font-size: medium;
+    font-weight: 600;
+    padding: 15px;
+    transition: .3s;
+    width: 150px;
+}
+
+
+#singleblog .btnform:hover{
+   background-color: #eb2f06;
+    color: white;
+    transition: .3s;
+}
+
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 100px;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 50px;
+    height: 65%;
+    width: 100%;
+    position: absolute;
+}
+
+
+#form .btnform{
+    background-color: black;
+    border-radius: 30px;
+    color: gray;
+    font-size: medium;
+    font-weight: 600;
+    padding: 15px;
+    transition: .3s;
+    width: 150px;
+}
+
+
+#form .btnform:hover{
+   background-color: #eb2f06;
+    color: white;
+    transition: .3s;
+}
